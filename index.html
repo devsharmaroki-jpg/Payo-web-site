@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payo Login form</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
+        <header>
+            <nav class="flex justify-center items-center mt-6">
+                <div class="flex justify-center items-center mt-10 relative w-9/12 mb-10  ">
+                    <img class="w-48 absolute" src="image/bg.png" alt="">
+                    <img src="image/Group.png" alt="">
+                </div>
+            </nav>
+        </header>
+        <!-- loging section -->
+        <!-- 
+         -->
+        <div class="  ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body">
+                        <form class="fieldset">
+                            <label class="label">Acount Number</label>
+                            <input value="" id="acount-number" type="number" class="input"
+                                placeholder="Enter your number" required />
+                            <label class="label">PIN</label>
+                            <input value="" id="pin" type="text" class="input" placeholder="Enter your PIN" required />
+                            <div><a class="link link-hover">Forgot PIN?</a></div>
+                            <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="js/from.js"></script>
+</body>
+
+</html>
